@@ -545,15 +545,21 @@ body {
 .service .section-text { margin-block-end: 50px; }
 
 .service-card {
-  height: 50vh;
-  width: 20vw;
+  height: 500px;
+  width: 350px;
+  
   background-color: var(--white);
   padding: 30px;
   border: 20px solid var(--cultured-3);
   transition: var(--transition);
 }
 
-.service-card:is(:hover, :focus-within) { border-color: var(--dark-orange); }
+.service-card:is(:hover, :focus-within) { 
+  border-color: var(--dark-orange); 
+  transition: 0.5s;
+  height: 502px;
+  width: 352px;
+}
 
 .service-card .card-icon { margin-block-end: 30px; }
 
@@ -585,7 +591,10 @@ body {
   transition: var(--transition);
 }
 
-.feature-card:is(:hover, :focus-within) { box-shadow: var(--shadow-3); }
+.feature-card:is(:hover, :focus-within) { 
+  box-shadow: var(--shadow-3); 
+  border: none;
+}
 
 .feature-card::before {
   content: var(--card-number);
@@ -1225,9 +1234,10 @@ body {
 
   .feature-card { 
     border-bottom: 2px solid var(--prussian-blue);
+    transition: 0.5s;
     padding-block-start: 80px; 
-    width: 25vw;
-    height: 40vh;
+    width: 350px;
+    height: 520px;
   }
 
   .feature-card::before {
