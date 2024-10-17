@@ -301,9 +301,8 @@ body {
 }
 */
 
-/* color of header on active */
 .header.active {
-  background: linear-gradient(to right, #FFD257, var(--dark-orange)); /* Example gradient from red to dark red */
+  background: linear-gradient(to right, #ec5d3d, #b11340); /* Example gradient from red to dark red */
 }
 
 
@@ -473,10 +472,10 @@ body {
 }
 
 .hero .shape-3 {
-  height: 250px;
-  width: 200px;
-  top: 67vh;
-  right: 30vw;
+  height: 100px;
+  width: 180px;
+  top: 75vh;
+  right: 58vw;
   animation: moveLeftRight 2s ease-in-out infinite alternate !important;
 }
 
@@ -546,6 +545,8 @@ body {
 .service .section-text { margin-block-end: 50px; }
 
 .service-card {
+  height: 50vh;
+  width: 20vw;
   background-color: var(--white);
   padding: 30px;
   border: 20px solid var(--cultured-3);
@@ -838,6 +839,7 @@ body {
 }
 
 .copyright-link { display: inline-block; }
+
 
 
 
@@ -1213,9 +1215,20 @@ body {
 
   .feature .section-text { margin-block-end: 0; }
 
-  .feature-list { margin-block-start: 120px; }
+  .feature-list { 
+    display: flex;
+    margin-block-start: 120px; 
+    justify-content: center;
+    gap: 30px;
+  
+  }
 
-  .feature-card { padding-block-start: 80px; }
+  .feature-card { 
+    border-bottom: 2px solid var(--prussian-blue);
+    padding-block-start: 80px; 
+    width: 25vw;
+    height: 40vh;
+  }
 
   .feature-card::before {
     --fs-1: 16rem;
