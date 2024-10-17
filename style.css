@@ -302,7 +302,7 @@ body {
 */
 
 .header.active {
-  background: linear-gradient(to right, #ec5d3d, #b11340); /* Example gradient from red to dark red */
+  background: linear-gradient(to right, #FFD257, var(--dark-orange)); /* Example gradient from red to dark red */
 }
 
 
