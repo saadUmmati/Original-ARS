@@ -301,6 +301,7 @@ body {
 }
 */
 
+/* color of header on active */
 .header.active {
   background: linear-gradient(to right, #FFD257, var(--dark-orange)); /* Example gradient from red to dark red */
 }
@@ -472,10 +473,10 @@ body {
 }
 
 .hero .shape-3 {
-  height: 280px;
+  height: 250px;
   width: 200px;
-  top: 66vh;
-  right: 55vw;
+  top: 67vh;
+  right: 30vw;
   animation: moveLeftRight 2s ease-in-out infinite alternate !important;
 }
 
