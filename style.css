@@ -544,7 +544,8 @@ body {
 
 .service-card {
   height: 500px;
-  width: 350px;
+  width: 100%;
+  max-width: 350px;
   
   background-color: var(--white);
   padding: 30px;
@@ -1234,7 +1235,8 @@ body {
     border-bottom: 2px solid var(--prussian-blue);
     transition: 0.5s;
     padding-block-start: 80px; 
-    width: 350px;
+    width: 100%;
+    max-width: 350px;
     height: 520px;
   }
 
