@@ -248,6 +248,7 @@ body {
 .btn:is(:hover, :focus)::after { width: 40px; }
 
 .grid-list {
+  overflow: hidden;
   align-items: center;
   display: grid;
   gap: 30px;
@@ -546,7 +547,7 @@ body {
   height: 500px;
   width: 100%;
   max-width: 350px;
-  
+  overflow: hidden;
   background-color: var(--white);
   padding: 30px;
   border: 20px solid var(--cultured-3);
@@ -583,6 +584,7 @@ body {
 .feature .section-text { margin-block: 20px 40px; }
 
 .feature-card {
+  overflow: hidden;
   position: relative;
   padding: 30px;
   text-align: center;
@@ -1224,6 +1226,7 @@ body {
   .feature .section-text { margin-block-end: 0; }
 
   .feature-list { 
+    overflow: hidden;
     display: flex;
     margin-block-start: 120px; 
     justify-content: center;
